@@ -47,7 +47,5 @@ public class Main{
         int age1 = new java.util.Scanner(System.in).nextInt(); //キーボードから１つの整数を受け取る
         System.out.println("ようこそ" + age1 + "さいの" + name1 + "さん");
         // キーボードから入力を受ける命令
-
-
     }
 }
