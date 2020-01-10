@@ -30,11 +30,25 @@ public class Main{
         }
         // こういう書き方もある。左辺と右辺が一致するか比較する式ならSwitchに置き換えられる
 
+
         for (int i = 0; i < 3; i++){
             System.out.print("現在" + (i + 1) + "周目→");
         }
         //for文例
 
-        
+
+        for (int i = 1; i < 10; i++){
+            for (int j = 1; j <10; j++){
+                System.out.println(i*j);
+                System.out.println(" ");
+            }
+            System.out.println("");
+        }
+        // 多重構造や入れ子をネストという
+        //九九のコード
+        // break; 切り返しを中断する
+        // continue; 今回の周だけを中断し次の週へ進む
+
+
     }
 }
