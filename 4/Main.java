@@ -48,6 +48,10 @@ public class Main {
             System.out.println(value);
         }
         //拡張for文ではこれだけでいい
-        
+
+        int[][] scores5 = {{40,50,60},{80,60,70}};
+        System.out.println(scores5.length);
+        System.out.println(scores5[0].length);
+        //二次元配列
     }
 }
