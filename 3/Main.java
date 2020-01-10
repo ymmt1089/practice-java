@@ -29,5 +29,12 @@ public class Main{
                 System.out.println("凶");
         }
         // こういう書き方もある。左辺と右辺が一致するか比較する式ならSwitchに置き換えられる
+
+        for (int i = 0; i < 3; i++){
+            System.out.print("現在" + (i + 1) + "周目→");
+        }
+        //for文例
+
+        
     }
 }
