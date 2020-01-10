@@ -36,5 +36,18 @@ public class Main {
             System.out.print(base[seq[i]]);
         }
         //ランダムでATGCを出力。base[seq[i]]の理解
+
+
+
+        int[] scores4 = {11,22,33,44,55};
+        for (int i = 0; i < scores4.length; i++){
+            System.out.println(scores4[i]);
+        }
+        //従来のfor文の書き方
+        for (int value : scores4){
+            System.out.println(value);
+        }
+        //拡張for文ではこれだけでいい
+        
     }
 }
