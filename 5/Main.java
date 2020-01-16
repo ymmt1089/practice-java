@@ -106,6 +106,7 @@ public class Main{
     }
     public static void main(String[] args){
         System.out.println(add(10,20));
+        System.out.println(add(10,20,30));
     }
 }
 // こういう風に引数の数でも判断できる
