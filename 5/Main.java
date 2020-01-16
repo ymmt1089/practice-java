@@ -48,13 +48,24 @@
 // }
 
 
+// public class Main{
+//     public static int add(int x,int y){
+//         int ans = x + y;
+//         return ans;
+//     }
+//     public static void main(String[] args){
+//         int ans = add(10,100);//addメソッドに和の機能を持たせているのでここだけで何をしているかわかる
+//         System.out.println("100 + 10 = " + ans);
+//     }
+// }
+
+
 public class Main{
     public static int add(int x,int y){
         int ans = x + y;
         return ans;
     }
     public static void main(String[] args){
-        int ans = add(10,100);//addメソッドに和の機能を持たせているのでここだけで何をしているかわかる
-        System.out.println("100 + 10 = " + ans);
+        System.out.println(add(add(10,20),add(30,40)));//add(30,70)と同意。戻り値をそのまま使いこともできる
     }
 }
