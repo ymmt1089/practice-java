@@ -97,16 +97,51 @@
 
 
 
+// public class Main{
+//     public static int add(int x,int y){
+//         return x + y;
+//     }
+//     public static int add(int x,int y,int z){
+//         return x + y + z;
+//     }
+//     public static void main(String[] args){
+//         System.out.println(add(10,20));
+//         System.out.println(add(10,20,30));
+//     }
+// }
+// // こういう風に引数の数でも判断できる
+
+
+// 引数に配列を用いる
+// 以下の配列はarray配列をそのまま渡しているのではなく、配列のアドレスを渡している
+// public class Main{
+//     public static void printArray(int[] array){
+//         for(int element : array){
+//             System.out.println(element);
+//         }
+//     }
+//     public static void main(String[] args){
+//         int[] array = {1,2,3};
+//         printArray(array);
+//     }
+// }
+
+
+
+// 戻り値に配列を用いる
+// 少し理解がいる
 public class Main{
-    public static int add(int x,int y){
-        return x + y;
-    }
-    public static int add(int x,int y,int z){
-        return x + y + z;
+    public static int[] makeArray(int size){//int型配列を作成して戻すメソッド//2
+        int[] newArray = new int[size];
+        for (int i = 0; i < newArray.length; i++){
+            newArray[i] = i;
+        }
+        return newArray;//配列を戻す
     }
     public static void main(String[] args){
-        System.out.println(add(10,20));
-        System.out.println(add(10,20,30));
+        int[] array = makeArray(5);//1
+        for (int i : array){
+            System.out.println(i);
+        }
     }
 }
-// こういう風に引数の数でも判断できる
