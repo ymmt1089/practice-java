@@ -22,15 +22,27 @@
 //     }
 // }
 
+// public class Main{
+//     public static void main(String[] args){
+//         System.out.println("メソッドをよびだします");
+//         hello("Aさん");
+//         hello("Bさん");
+//         hello("Cさん");
+//         System.out.println("メソッドの呼び出し終了");
+//     }
+//     public static void hello(String name){
+//         System.out.println(name + "さん、こんちわ");
+//     }
+// }
+
+
 public class Main{
     public static void main(String[] args){
-        System.out.println("メソッドをよびだします");
-        hello("Aさん");
-        hello("Bさん");
-        hello("Cさん");
-        System.out.println("メソッドの呼び出し終了");
+        add(100,20);
+        add(200,50);
     }
-    public static void hello(String name){
-        System.out.println(name + "さん、こんちわ");
+    public static void add(int x,int y){
+        int ans =x + y;
+        System.out.println(x+"+"+y+"="+ans);
     }
 }
